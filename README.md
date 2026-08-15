@@ -93,6 +93,20 @@ The debug APK will be created at:
 app/build/outputs/apk/debug/app-debug.apk
 ```
 
+## Build APK With GitHub Actions
+
+If you do not want to install Android Studio locally, push this repository to GitHub and use the included workflow:
+
+1. Open the GitHub repository.
+2. Go to `Actions`.
+3. Open `Build Debug APK`.
+4. Click `Run workflow`.
+5. Wait for the run to finish.
+6. Open the finished run and download the `ReadAloud-debug-apk` artifact.
+7. Extract the artifact ZIP. The APK inside can be installed on an Android phone for testing.
+
+The workflow uses GitHub-hosted Linux runners, JDK 17, Android SDK Platform 37, Gradle 9.5.0, and Android Gradle Plugin 9.3.0.
+
 ## Installation
 
 Install with Android Studio's Run button, or with ADB:
