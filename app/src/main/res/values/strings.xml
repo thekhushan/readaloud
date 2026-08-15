@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ReadAloud</string>
+    <string name="accessibility_service_label">ReadAloud screen reader</string>
+    <string name="accessibility_service_summary">Reads visible messages aloud after you activate it.</string>
+    <string name="accessibility_service_description">ReadAloud reads visible message text on your device after you activate it. Your messages and screenshots stay on your phone and are not uploaded.</string>
+    <string name="tile_label">ReadAloud</string>
+</resources>
