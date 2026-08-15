@@ -6,7 +6,7 @@ plugins {
 
 android {
     namespace = "com.readaloud.app"
-    compileSdk = 37
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.readaloud.app"
