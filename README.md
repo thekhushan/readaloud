@@ -62,13 +62,13 @@ ReadAloud
 
 ## Build Requirements
 
-- Android Studio that supports Android SDK API 36 and Android Gradle Plugin 9.3.0.
+- Android Studio that supports Android SDK API 36 and Android Gradle Plugin 8.13.2.
 - JDK 17.
 - Android SDK Platform 36 installed for compilation.
 - Android SDK Build Tools 36.0.0 or newer.
 - A device or emulator running Android 11/API 30 or newer.
 
-This workspace does not include a Gradle wrapper JAR because no downloads were performed while creating the project. Android Studio can still open and sync the project using its bundled Gradle. If you want CLI builds later, generate or add a Gradle 9.5.0 wrapper.
+This workspace does not include a Gradle wrapper JAR because no downloads were performed while creating the project. Android Studio can still open and sync the project using its bundled Gradle. If you want CLI builds later, generate or add a Gradle 8.13 wrapper.
 
 ## Build Instructions
 
@@ -105,7 +105,7 @@ If you do not want to install Android Studio locally, push this repository to Gi
 6. Open the finished run and download the `ReadAloud-debug-apk` artifact.
 7. Extract the artifact ZIP. The APK inside can be installed on an Android phone for testing.
 
-The workflow uses GitHub-hosted Linux runners, JDK 17, Android SDK Platform 36, Gradle 9.5.0, and Android Gradle Plugin 9.3.0.
+The workflow uses GitHub-hosted Linux runners, JDK 17, Android SDK Platform 36, Gradle 8.13, and Android Gradle Plugin 8.13.2.
 
 ## Installation
 
