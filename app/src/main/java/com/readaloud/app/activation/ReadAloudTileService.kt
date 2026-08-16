@@ -31,7 +31,9 @@ class ReadAloudTileService : TileService() {
                     intent,
                     PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE
                 )
-                startActivityAndCollapse(pendingIntent)
+                pendingIntent?.let {
+                    startActivityAndCollapse(it)
+                }
             } else {
                 @Suppress("DEPRECATION")
                 startActivityAndCollapse(intent)
