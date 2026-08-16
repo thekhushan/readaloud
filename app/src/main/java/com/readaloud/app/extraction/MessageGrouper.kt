@@ -15,6 +15,7 @@ class MessageGrouper {
             .flatMap { splitVisualLine(it).asSequence() }
             .map { clean(it) }
             .filter { isLikelyMessage(it) }
+            .toList()
             .let { removeDuplicates(it) }
     }
 
